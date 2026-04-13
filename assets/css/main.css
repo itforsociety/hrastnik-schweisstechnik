@@ -172,11 +172,46 @@ section {
   gap: 1rem;
 }
 
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .card {
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 0.8rem;
   padding: 1rem;
+}
+
+.offer-list,
+.process-list,
+.faq-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.offer-list li,
+.process-list li,
+.faq-list li {
+  margin-bottom: 0.65rem;
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.9rem;
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 999px;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.82rem;
 }
 
 .skills-list,
@@ -306,6 +341,10 @@ button {
   }
 
   .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
     grid-template-columns: 1fr;
   }
 }
