@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-label="Animated pipe weld connection">
+  <defs>
+    <style>
+      .pipe{stroke:#c8d0d8;stroke-width:28;fill:none;stroke-linecap:round;animation:pipeGlow 2.4s ease-in-out infinite}
+      .core{fill:#ff8e31;animation:pulse 2s ease-in-out infinite}
+      .spark{fill:#ffc15f;animation:spark 1.8s linear infinite}
+      @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+      @keyframes spark{0%{opacity:0;transform:translate(0,0)}30%{opacity:1}100%{opacity:0;transform:translate(55px,-24px)}}
+      @keyframes pipeGlow{0%,100%{stroke:#c8d0d8}50%{stroke:#ff9e45}}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="900" height="260" fill="#0f151a"/>
+  <path class="pipe" d="M80 130 H390"/>
+  <path class="pipe" d="M510 130 H820"/>
+  <circle class="core" cx="450" cy="130" r="13"/>
+  <circle class="spark" cx="450" cy="126" r="4"/>
+  <circle class="spark" cx="446" cy="136" r="3" style="animation-delay:.4s"/>
+  <circle class="spark" cx="452" cy="120" r="2.8" style="animation-delay:.8s"/>
+</svg>

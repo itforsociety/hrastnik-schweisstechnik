@@ -1,0 +1,7 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://itforsociety.github.io/hrastnik-schweisstechnik/sitemap.xml
+Sitemap: https://itforsociety.github.io/hrastnik-schweisstechnik/sitemap-de.xml
+Sitemap: https://itforsociety.github.io/hrastnik-schweisstechnik/sitemap-hr.xml
+Sitemap: https://itforsociety.github.io/hrastnik-schweisstechnik/sitemap-en.xml
